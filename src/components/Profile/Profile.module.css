@@ -1,0 +1,70 @@
+.container {
+    margin-top: 20px;
+    
+    width: 360px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;  
+    background-color: rgba(247, 245, 245, 0.943)
+}
+.image {
+    margin-top: 20px;
+    background-color: rgb(41, 37, 37);
+    border-radius: 50%;
+}
+.userName {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #000000;
+}
+.tag {
+    margin: 0;
+    color: dimgrey;
+    
+}
+.location {
+    margin: 0;
+    color: dimgrey;
+    margin-bottom: 20px;
+}
+.list {
+    padding-left: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    border-radius: 8px;
+    border-top: 2px solid rgb(113, 113, 113);
+    background-color: rgb(199, 199, 199);
+}
+.listText {
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42; 
+}
+.listText:not(:first-child) {
+    border-left: 2px solid rgb(113, 113, 113);
+}
+.listSpan {
+    font-weight: 700;
+}

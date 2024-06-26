@@ -1,0 +1,20 @@
+.container {
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 2px solid #333;
+}
+.container th, .container td {
+border: 1px solid #333;
+padding: 8px;
+text-align: left;
+width: 240px;
+text-align: center;
+font-size: 24px;
+}
+.container thead tr:nth-child(1) {
+    background-color: rgb(35, 35, 35);
+    color: aliceblue;
+}
+.container tbody tr:nth-child(2n+2) {
+    background-color: rgb(206, 206, 206);
+}
